@@ -221,20 +221,52 @@ span {
 
 /* pagina de contato~~~~~~~~~~~~~~~~ */
 
-    #h1ctt {
-        width: 100%;
-        height: 40px;
-        font-size: 50px;
-        color: #FFF;
-        background-color: #D21617;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 40px 0;
-        font-family: 'Kdam Thmor Pro', sans-serif;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: black;
-    }
+#h1ctt {
+    width: auto;
+    height: 40px;
+    font-size: 50px;
+    color: #FFF;
+    background-color: #D21617;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: black;
+}
 
+.geral {
+    display: flex;
+    color: #FFF;
+
+}
+
+.texto {
+    display: block;
+    width: 50%;
+}
+
+.formulario {
+    display: inline-block;
+    width: 50%;
+}
+
+.cartaimg {
+    width: 70px;
+    height: 70px;s
+}
+
+.telimg {
+    width: 70px;
+    height: 70px; 
+}
+
+.carta {
+    display: block;
+}
+.tel {
+    display: block;
+}
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
