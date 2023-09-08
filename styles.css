@@ -237,36 +237,37 @@ span {
     box-shadow: black;
 }
 
-.geral {
-    display: flex;
-    color: #FFF;
-
-}
 
 .texto {
+    background-color: gray;
+    color: white;
+    justify-content: center;
     display: block;
     width: 50%;
 }
 
-.formulario {
-    display: inline-block;
+#formulario {
+    color: white;
+    background-color: gray;
+    display: block;
     width: 50%;
 }
-
-.cartaimg {
-    width: 70px;
-    height: 70px;s
+.bcor1 {
+    background-color: gray;
+    color: white;
 }
 
-.telimg {
-    width: 70px;
-    height: 70px; 
+.ct {
+    display: flex;
 }
-
 .carta {
     display: block;
+    width: 70px;
+    height: 70px;
 }
-.tel {
+
+.telefone {
     display: block;
+    width: 70px;
+    height: 70px;
 }
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
