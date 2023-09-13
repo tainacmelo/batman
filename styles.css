@@ -222,16 +222,8 @@ span {
 
 /* pagina de contato~~~~~~~~~~~~~~~~ */
 
-#pai {
-    background-color: gray;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 #h1ctt {
-    width: auto;
+    width: 80%;
     height: 40px;
     font-size: 50px;
     color: #FFF;
@@ -239,39 +231,66 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 40px 10px;
+    padding: 10px;
+    margin: 30px;
     font-family: 'Kdam Thmor Pro', sans-serif;
-    padding: 20px;
     border-radius: 10px;
     box-shadow: black;
 }
 
+.titulo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contato {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 15px;
+}
 
 .texto {
-    color: white;
-    width: 50%;
+    width: 80%;
+    margin-left: 40px;
+    padding: 15px;
+    
 }
 
-.formulario {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.767);
-}
-.carta {
-    width: 70px;
-    height: 70px;
-}
-.telefone {
-    width: 70px;
-    height: 70px;
-}
-.bcor1 {
-    color: white;
-}
-.ct {
-    width: 50%;
-
+.imgs {
+    margin: 15px 0px;
+    width: 60px;
+    height: 60px;
 }
 
-.form-content {
-
+#nome {
+    background-color: aliceblue;
+    width: 400px;
+    height: 20px;
+    border-color: #D21617;
+    margin-bottom: 5px;
+}
+#email {
+    background-color: aliceblue;
+    width: 400px;
+    height: 20px;
+    border-color: #D21617;
+    margin-bottom: 5px;
+}
+#mensagem {
+    background-color: aliceblue;
+    width: 400px;
+    height: 100px;
+    border-color: #D21617;
+    margin-bottom: 5px;
+}
+#enviar {
+    background-color: aliceblue;
+    color: black;
+    border-color: #D21617;
 }
