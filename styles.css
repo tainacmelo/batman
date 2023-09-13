@@ -49,6 +49,7 @@ li:hover {
     background-size: cover;
     width: 100%;
     height: 400px;
+    margin-bottom: 10px;
 }
 
 #trailler-container {
@@ -221,6 +222,14 @@ span {
 
 /* pagina de contato~~~~~~~~~~~~~~~~ */
 
+#pai {
+    background-color: gray;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #h1ctt {
     width: auto;
     height: 40px;
@@ -230,7 +239,7 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 40px 0;
+    margin: 40px 10px;
     font-family: 'Kdam Thmor Pro', sans-serif;
     padding: 20px;
     border-radius: 10px;
@@ -239,35 +248,30 @@ span {
 
 
 .texto {
-    background-color: gray;
     color: white;
-    justify-content: center;
-    display: block;
     width: 50%;
 }
 
-#formulario {
+.formulario {
     color: white;
-    background-color: gray;
-    display: block;
-    width: 50%;
-}
-.bcor1 {
-    background-color: gray;
-    color: white;
-}
-
-.ct {
-    display: flex;
+    background-color: rgba(0, 0, 0, 0.767);
 }
 .carta {
-    display: block;
     width: 70px;
     height: 70px;
 }
-
 .telefone {
-    display: block;
     width: 70px;
     height: 70px;
+}
+.bcor1 {
+    color: white;
+}
+.ct {
+    width: 50%;
+
+}
+
+.form-content {
+
 }
