@@ -370,3 +370,43 @@ span {
         padding: 3px;
     }
 }
+
+
+/* pagina de comentarios  */ 
+
+#comentario {
+    font-weight: bold;
+    color: white;
+    font-family: 'Kdam Thmor Pro';
+    font-size: 30px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    border-radius: 10px;
+    margin: 20px 25px;
+    width: 96%;
+    height: 50px;
+}
+
+#corpo {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    height: 1000px;
+    background-color: rgba(70, 70, 70, 0.288);
+    padding: 20px;
+}
+
+.cmt {
+    color: white;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.icmt {
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+}
