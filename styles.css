@@ -220,6 +220,7 @@ span {
     }
 }
 
+
 /* pagina de contato~~~~~~~~~~~~~~~~ */
 
 #h1ctt {
@@ -246,20 +247,14 @@ span {
 }
 
 #contato {
+    width: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
     column-gap: 10px;
     justify-content: center;
     align-items: center;
     color: white;
-    padding: 15px;
-}
-
-.texto {
-    width: 80%;
-    margin-left: 40px;
-    padding: 15px;
-    
+    padding: 25px;
 }
 
 .imgs {
@@ -270,21 +265,21 @@ span {
 
 #nome {
     background-color: aliceblue;
-    width: 400px;
+    width: 80%;
     height: 20px;
     border-color: #D21617;
     margin-bottom: 5px;
 }
 #email {
     background-color: aliceblue;
-    width: 400px;
+    width: 80%;
     height: 20px;
     border-color: #D21617;
     margin-bottom: 5px;
 }
 #mensagem {
     background-color: aliceblue;
-    width: 400px;
+    width: 80%;
     height: 100px;
     border-color: #D21617;
     margin-bottom: 5px;
@@ -293,4 +288,85 @@ span {
     background-color: aliceblue;
     color: black;
     border-color: #D21617;
+}
+
+@media(max-width:500px) {
+#h1ctt {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+}
+.texto {
+    width: 50%;
+}
+.formulario {
+    width: 50%;
+}
+}
+
+
+/* pagina de fotoss */
+.titulof {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#h1fotos {
+    width: 80%;
+    height: 40px;
+    font-size: 50px;
+    color: #FFF;
+    background-color: #D21617;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 30px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    border-radius: 10px;
+    box-shadow: black;
+}
+
+#img2 {
+    border: 2px solid white ;
+    border-radius: 5px;
+    width: 60%;
+    height: 60%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#img2:hover {
+    transform: scale(1.2);
+}
+
+#fotos {
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(14, 14, 14);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 30px 20px;
+    margin: 100px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+
+@media(max-width:500px) {
+    #h1fotos {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+    }
+    #fotos {
+        margin: 5px;
+        padding: 3px;
+    }
 }
