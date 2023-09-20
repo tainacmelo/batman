@@ -290,7 +290,8 @@ span {
     border-color: #D21617;
 }
 
-@media(max-width:500px) {
+
+
 #h1ctt {
         display: flex;
         align-items: center;
@@ -298,13 +299,20 @@ span {
         font-size: 20px;
 }
 .texto {
+    display: block;
     width: 50%;
 }
 .formulario {
+    display: block;
     width: 50%;
 }
-}
 
+#contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
 
 /* pagina de fotoss */
 .titulof {
