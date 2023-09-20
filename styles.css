@@ -290,6 +290,7 @@ span {
     border-color: #D21617;
 }
 
+@media(max-width:768px) {
 
 
 #h1ctt {
