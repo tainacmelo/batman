@@ -224,19 +224,18 @@ span {
 /* pagina de contato~~~~~~~~~~~~~~~~ */
 
 #h1ctt {
-    width: 80%;
-    height: 40px;
-    font-size: 50px;
-    color: #FFF;
-    background-color: #D21617;
-    display: flex;
+    font-weight: bold;
+    color: white;
+    font-family: 'Kdam Thmor Pro';
+    font-size: 30px;
+    display: grid;
     align-items: center;
     justify-content: center;
-    padding: 10px;
-    margin: 30px;
-    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: red;
     border-radius: 10px;
-    box-shadow: black;
+    margin: 20px 25px;
+    width: 96%;
+    height: 50px;
 }
 
 .titulo {
@@ -244,6 +243,13 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#container {
+    display: block;
+    justify-content: center;
+    padding: 15px;
+
 }
 
 #contato {
@@ -323,19 +329,18 @@ span {
 }
 
 #h1fotos {
-    width: 80%;
-    height: 40px;
-    font-size: 50px;
-    color: #FFF;
-    background-color: #D21617;
-    display: flex;
+    font-weight: bold;
+    color: white;
+    font-family: 'Kdam Thmor Pro';
+    font-size: 30px;
+    display: grid;
     align-items: center;
     justify-content: center;
-    padding: 10px;
-    margin: 30px;
-    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: red;
     border-radius: 10px;
-    box-shadow: black;
+    margin: 20px 25px;
+    width: 96%;
+    height: 50px;
 }
 
 #img2 {
@@ -398,24 +403,43 @@ span {
     height: 50px;
 }
 
+#container {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
 #corpo {
     display: block;
-    align-items: center;
-    justify-content: center;
     width: 900px;
-    height: 1000px;
+    height: auto;
     background-color: rgba(70, 70, 70, 0.288);
     padding: 20px;
 }
 
 .cmt {
+    display: flex;
     color: white;
-    justify-content: center;
-    margin-bottom: 15px;
+
+    padding: 10px;
 }
 
 .icmt {
+    display: block;
     width: 150px;
     height: 150px;
-    padding: 5px;
+    margin: 10px;
+}
+
+.cmt > p {
+    align-items: center;
+    font-size: 15px;
+    margin: 30px;
+}
+
+.cmt > h1 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
 }
